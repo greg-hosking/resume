@@ -1,26 +1,36 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import 'bootstrap/dist/css/bootstrap.css';
+import TopNav from './components/TopNav';
+import SideNav from './components/SideNav';
+import AboutSection from './components/AboutSection';
+import EducationSection from './components/EducationSection';
+import ExperienceSection from './components/ExperienceSection';
+import SkillsSection from './components/SkillsSection';
+import ProjectsSection from './components/ProjectsSection';
 
-function App() {
+const App: React.FunctionComponent = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+    <>
+      <header>
+        <div id='top-nav-container' className='d-xs-block d-md-none'>
+          <TopNav />
+        </div>
       </header>
-    </div>
+      <main>
+        <div id='side-nav-container' className='d-none d-md-block'>
+          <SideNav />
+        </div>
+        <div id='content-container'>
+          <AboutSection />
+          <EducationSection />
+          <ExperienceSection />
+          <SkillsSection />
+          <ProjectsSection />
+        </div>
+      </main>
+    </>
   );
-}
+};
 
 export default App;
