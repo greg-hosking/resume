@@ -33,7 +33,6 @@ const AboutSection: React.FunctionComponent = () => {
           <img
             src={require('../images/linkedin-icon.png')}
             alt='Visit my LinkedIn profile.'
-            id='linkedin-icon'
           />
         </a>
         <a
@@ -44,18 +43,6 @@ const AboutSection: React.FunctionComponent = () => {
           <img
             src={require('../images/github-icon.png')}
             alt='Visit my GitHub profile.'
-            id='github-icon'
-          />
-        </a>
-        <a
-          href='https://github.com/greg-hosking/resume'
-          target='_blank'
-          rel='noreferrer'
-        >
-          <img
-            src={require('../images/source-code-icon.png')}
-            alt='View the source code for this website.'
-            id='source-code-icon'
           />
         </a>
         <a
