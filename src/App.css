@@ -128,6 +128,10 @@ section {
 /* ----------------- */
 /* EDUCATION SECTION */
 /* ----------------- */
+#education-section {
+  min-height: 50vh;
+}
+
 #education-section h1 {
   padding-bottom: 1em;
   padding-top: 1em;
@@ -164,6 +168,10 @@ section {
 /* -------------- */
 /* SKILLS SECTION */
 /* -------------- */
+#skills-section {
+  min-height: 50vh;
+}
+
 #skills-section h1 {
   padding-bottom: 1em;
   padding-top: 1em;
