@@ -13,7 +13,7 @@ const ProjectsSection: React.FunctionComponent = () => {
           <span>COMPLETE</span>
         </h5>
         <ul>
-          <li>Developed a responsive website for personal professional use.</li>
+          <li>Developed a responsive website for professional use.</li>
           <li>Built with React, TypeScript, and Bootstrap.</li>
         </ul>
         <img src={require('../images/react-icon.png')} alt='React icon' />
