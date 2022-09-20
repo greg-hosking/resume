@@ -25,21 +25,33 @@ const AboutSection: React.FunctionComponent = () => {
           problem-solving skills, a strong work ethic, and a desire to learn on
           the job.
         </p>
-        <a href='https://www.linkedin.com/in/greg-hosking/' target='_blank'>
+        <a
+          href='https://www.linkedin.com/in/greg-hosking/'
+          target='_blank'
+          rel='noreferrer'
+        >
           <img
             src={require('../images/linkedin-icon.png')}
             alt='Visit my LinkedIn profile.'
             id='linkedin-icon'
           />
         </a>
-        <a href='https://github.com/greg-hosking' target='_blank'>
+        <a
+          href='https://github.com/greg-hosking'
+          target='_blank'
+          rel='noreferrer'
+        >
           <img
             src={require('../images/github-icon.png')}
             alt='Visit my GitHub profile.'
             id='github-icon'
           />
         </a>
-        <a href='https://github.com/greg-hosking/resume' target='_blank'>
+        <a
+          href='https://github.com/greg-hosking/resume'
+          target='_blank'
+          rel='noreferrer'
+        >
           <img
             src={require('../images/source-code-icon.png')}
             alt='View the source code for this website.'
