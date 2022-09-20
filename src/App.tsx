@@ -12,10 +12,8 @@ import ProjectsSection from './components/ProjectsSection';
 const App: React.FunctionComponent = () => {
   return (
     <>
-      <header>
-        <div id='top-nav-container' className='d-xs-block d-md-none'>
-          <TopNav />
-        </div>
+      <header className='d-xs-block d-md-none'>
+        <TopNav />
       </header>
       <main>
         <div id='side-nav-container' className='d-none d-md-block'>
