@@ -231,11 +231,6 @@ section {
   width: 45%;
 }
 
-iframe {
-  width: 70vw;
-  height: 100vh;
-}
-
 /* ---------------------------------- */
 /* EXTRA LARGE SCREEN SIZE BREAKPOINT */
 /* ---------------------------------- */
@@ -257,8 +252,5 @@ iframe {
 
   #about-section h1 {
     font-size: 48px;
-  }
-  #projects-section .project-preview {
-    width: 100%;
   }
 }

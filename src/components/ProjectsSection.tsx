@@ -16,7 +16,6 @@ const ProjectsSection: React.FunctionComponent = () => {
           <li>Developed a responsive website for professional use.</li>
           <li>Built with React, TypeScript, and Bootstrap.</li>
         </ul>
-        <iframe src='https://greg-hosking.github.io/resume'></iframe>
         <img src={require('../images/react-icon.png')} alt='React icon' />
         <img
           src={require('../images/typescript-icon.png')}
@@ -52,6 +51,15 @@ const ProjectsSection: React.FunctionComponent = () => {
             Utilized React, TypeScript, and Bootstrap, and custom API and CDN.
           </li>
         </ul>
+        <img
+          src={require('../images/bs-master-preview-1.png')}
+          className='project-preview'
+        />
+        <img
+          src={require('../images/bs-master-preview-2.png')}
+          className='project-preview'
+        />
+        <br />
         <img src={require('../images/react-icon.png')} alt='React icon' />
         <img
           src={require('../images/typescript-icon.png')}
