@@ -13,10 +13,10 @@ const TopNav: React.FunctionComponent = () => {
         <Navbar.Collapse id='nav'>
           <Nav className='me-auto'>
             <Nav.Link href='#about-section'>ABOUT</Nav.Link>
-            <Nav.Link href='#education-section'>EDUCATION</Nav.Link>
             <Nav.Link href='#experience-section'>EXPERIENCE</Nav.Link>
-            <Nav.Link href='#skills-section'>SKILLS</Nav.Link>
             <Nav.Link href='#projects-section'>PROJECTS</Nav.Link>
+            <Nav.Link href='#skills-section'>SKILLS</Nav.Link>
+            <Nav.Link href='#education-section'>EDUCATION</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>

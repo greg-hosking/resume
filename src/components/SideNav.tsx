@@ -19,17 +19,18 @@ const SideNav: React.FunctionComponent = () => {
       </h5>
       <h5
         onClick={() => {
-          document.getElementById('education-section')?.scrollIntoView();
-        }}
-      >
-        EDUCATION
-      </h5>
-      <h5
-        onClick={() => {
           document.getElementById('experience-section')?.scrollIntoView();
         }}
       >
         EXPERIENCE
+      </h5>
+
+      <h5
+        onClick={() => {
+          document.getElementById('projects-section')?.scrollIntoView();
+        }}
+      >
+        PROJECTS
       </h5>
       <h5
         onClick={() => {
@@ -40,10 +41,10 @@ const SideNav: React.FunctionComponent = () => {
       </h5>
       <h5
         onClick={() => {
-          document.getElementById('projects-section')?.scrollIntoView();
+          document.getElementById('education-section')?.scrollIntoView();
         }}
       >
-        PROJECTS
+        EDUCATION
       </h5>
     </div>
   );

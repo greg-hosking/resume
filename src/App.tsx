@@ -4,10 +4,10 @@ import 'bootstrap/dist/css/bootstrap.css';
 import TopNav from './components/TopNav';
 import SideNav from './components/SideNav';
 import AboutSection from './components/AboutSection';
-import EducationSection from './components/EducationSection';
 import ExperienceSection from './components/ExperienceSection';
-import SkillsSection from './components/SkillsSection';
 import ProjectsSection from './components/ProjectsSection';
+import SkillsSection from './components/SkillsSection';
+import EducationSection from './components/EducationSection';
 
 const App: React.FunctionComponent = () => {
   return (
@@ -21,10 +21,10 @@ const App: React.FunctionComponent = () => {
         </div>
         <div id='content-container'>
           <AboutSection />
-          <EducationSection />
           <ExperienceSection />
-          <SkillsSection />
           <ProjectsSection />
+          <SkillsSection />
+          <EducationSection />
         </div>
       </main>
     </>
