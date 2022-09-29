@@ -225,6 +225,7 @@ section {
 
 #projects-section .project-preview {
   background-color: none;
+  border: 2px solid white;
   border-radius: 0%;
   margin-bottom: 1.5em;
   padding: 0;
